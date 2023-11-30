@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+  }
+
+  /* Add a black background color to the top navigation */
+ header {
+    top: 0;
+    width: 100%;
+    display:flex;
+    background-color: #333;
+    position: fixed;
+    background-size: cover; /* how large it is in the div */
+    z-index: 1;
+    align-items: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .full-height {
+    height: 100vh;
+    display:flex;
+    border: 1px solid black;
+    background-size: cover; /* how large it is in the div */
+    background-repeat: no-repeat; /* whether it should repeat */
+    background-position: center; /* where the image should sit */
+    position: relative; /* so the absolute children have something to be relative to */
+  
+    /* instead of position properties, we could give this display: flex and use justify-content and align-items to move the description around */
+  }
+
+  .image1 {
+    background-image: url("./images/image1.jpg"); /* the actual image */
+  }
+
+  .image2 {
+    background-image: url("./images/image2.jpg"); /* the actual image */
+  }
+
+  .image3 {
+    background-image: url("./images/image3.jpg"); /* the actual image */
+  }
