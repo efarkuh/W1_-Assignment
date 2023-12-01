@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   /* Add a black background color to the top navigation */
@@ -13,16 +13,55 @@ body {
     background-size: cover; /* how large it is in the div */
     z-index: 1;
     align-items: center;
+    
   }
   
   /* Style the links inside the navigation bar */
+
+  header h1 {
+    color: #f2f2f2;
+    font-size: 25px;
+    margin-left: 2%;
+    font-family: 'Montserrat';
+    font-variant-caps: small-caps;
+    font-weight: bold;
+  }
+
+
+  main a {
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Montserrat';
+    font-variant-caps: small-caps;
+    position: absolute;
+    bottom: 13%;
+    left: 5%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: darkgray;
+    padding: 5px 16px;
+    background-color: rgba(128, 128, 128, 0.5);
+  }
+
+
+
+  main a:hover {
+    background-color: white; 
+    color: black;
+  }
+
+
+
   .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
+    font-family: 'Montserrat';
+    font-variant-caps: small-caps;
   }
 
   .full-height {
@@ -47,4 +86,24 @@ body {
 
   .image3 {
     background-image: url("./images/image3.jpg"); /* the actual image */
+  }
+
+  .description {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+  }
+
+  .description2 {
+    position: absolute;
+    bottom: 18%;
+    left: 5%;
+    color: white;
+    font-family: 'Courier New';
+    font-size: 20px;
   }
